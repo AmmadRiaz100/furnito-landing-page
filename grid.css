@@ -1,0 +1,25 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columns each taking up an equal portion of available space */
+    gap: 40px; /* Adjust gap between grid items as needed */
+    
+  }
+  
+  .grid-item {
+  
+    text-align: center; /* Center align content */
+  }
+  .grid-item img{
+    width: 50px;
+  }
+  .cntrkarnyklia{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid-item  p{
+    color: #5d646a;
+    font-size: large;
+    font-weight: bolder;
+  }
